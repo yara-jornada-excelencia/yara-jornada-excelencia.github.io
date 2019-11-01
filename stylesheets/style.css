@@ -10,12 +10,13 @@ body {
   font-size: 16px;
   line-height: 1.7;
   color: #777;
+  background: #f3f6f9;
   
 }
 
 .header {
   height: 100vh;
-  background-image: linear-gradient(to right bottom, rgba(192, 204, 35, 0.8), rgba(226, 228, 199, 0.8)), url(../images/banner.jpg);
+  background-image: linear-gradient(to right bottom, rgba(39, 119, 184, 0.8), rgba(99, 182, 230, 0.897)), url(../images/banner.jpg);
   background-size: cover;
   background-position: top;
   position: relative;
@@ -108,7 +109,7 @@ body {
   text-decoration: none;
   padding: 15px 40px;
   display: inline-block;
-  border-radius: 100px;
+  border-radius: 10px;
   transition: all 0.2s;
   box-shadow: 0 5px 10px #000000;
   position: relative;
@@ -137,7 +138,7 @@ body {
   display: inline-block;
   height: 100%;
   width: 100%;
-  border-radius: 100px;
+  border-radius: 10px;
   position: absolute;
   top: 0;
   left: 0;
